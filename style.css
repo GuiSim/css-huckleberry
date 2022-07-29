@@ -1,12 +1,60 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 500px;
+}
+
+strong {
+  color: green;
+}
+
+.intro-chunk {
+  max-width: 375px;
+}
+
+header {
+  padding: 30px 60px 20px 60px;
+}
+
+main {
+  width: 100%;
+  background-color: lightgray;
+  border-top: 5px solid darkgray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 5px solid darkgray;
+  padding: 2px 10px 10px 10px;
+  width: 100%;
+}
+
+.indented-heading {
+  background: orange;
+  border-bottom: 5px solid darkorange;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  width: fit-content;
+}
